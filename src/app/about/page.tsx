@@ -17,7 +17,6 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left - Text Content */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
               Our Story
@@ -52,7 +51,6 @@ export default function About() {
             </ul>
           </div>
 
-          {/* Right - Image */}
           <div className="flex justify-center">
             <Image
               src="/OIF.jpg"
@@ -72,9 +70,9 @@ export default function About() {
             MatchRight uses advanced AI to analyze resumes and job descriptions.
             Our platform is built with <strong>Next.js</strong>, uses{" "}
             <strong>Clerk</strong> for authentication, and integrates{" "}
-            <strong>Google's Gemini AI</strong> for intelligent matching and
-            suggestions. We're continuously refining our algorithms to ensure
-            the most accurate and useful recommendations.
+            <strong>Google&apos;s Gemini AI</strong> for intelligent matching
+            and suggestions. We&apos;re continuously refining our algorithms to
+            ensure the most accurate and useful recommendations.
           </p>
         </div>
       </div>
